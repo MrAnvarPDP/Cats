@@ -1,0 +1,124 @@
+.neko {
+  padding: 85px 82.87px;
+}
+
+.neko__wrapper {
+  @include d-flex(center, 150px);
+}
+
+.neko__info {
+  color: #ffffff;
+}
+.neko__subtitle {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.36em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #696969;
+  margin-bottom: 28px;
+}
+.neko__title {
+  font-family: Poppins;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 69px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+.neko__text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.btn__neko {
+  width: 203px;
+  height: 45px;
+  border-radius: 220px;
+  background: #c75e90;
+  color: #ffffff;
+  border: none;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
+}
+
+.btn__cats {
+  width: 337px;
+  height: 122px;
+  border: none;
+  background: #161616;
+  background-image: url("../../imgs/Mask\ group\ \(1\).svg");
+  cursor: pointer;
+  margin-top: 40px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.btn__text {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.36em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.btn__text-2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 480px) {
+  .neko {
+    padding: 30px 0;
+  }
+
+  .neko__wrapper {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .neko__title {
+    text-align: center;
+  }
+
+  .btn__neko {
+    width: 375px;
+    height: 62px;
+    top: 523px;
+    left: 27px;
+    gap: 0px;
+    border-radius: 220px;
+    opacity: 0px;
+  }
+
+  .neko__img {
+    max-width: 100%;
+  }
+}

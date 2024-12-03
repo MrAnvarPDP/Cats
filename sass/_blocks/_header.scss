@@ -1,0 +1,68 @@
+.header {
+  padding: 35px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  cursor: pointer;
+}
+
+.header__menu {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+
+.burger__btn {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+.header__link {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.header__booking {
+  width: 165px;
+  height: 45px;
+  border-radius: 220px;
+  background: #c75e90;
+  border: none;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .header__menu {
+    display: none;
+  }
+
+  .light__dark {
+    display: none;
+  }
+
+  .header__booking {
+    display: none;
+  }
+
+  .burger__btn {
+    display: block;
+  }
+}
